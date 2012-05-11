@@ -14,13 +14,26 @@
 		21394095155D74F400CFB44A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21394094155D74F400CFB44A /* main.m */; };
 		21394099155D74F400CFB44A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21394098155D74F400CFB44A /* AppDelegate.m */; };
 		2139409C155D74F400CFB44A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2139409B155D74F400CFB44A /* ViewController.m */; };
-		2139409F155D74F400CFB44A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2139409D155D74F400CFB44A /* ViewController_iPhone.xib */; };
-		213940A2155D74F400CFB44A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 213940A0155D74F400CFB44A /* ViewController_iPad.xib */; };
 		213940AA155D74F400CFB44A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213940A9155D74F400CFB44A /* SenTestingKit.framework */; };
 		213940AB155D74F400CFB44A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21394088155D74F400CFB44A /* UIKit.framework */; };
 		213940AC155D74F400CFB44A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2139408A155D74F400CFB44A /* Foundation.framework */; };
 		213940B4155D74F400CFB44A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 213940B2155D74F400CFB44A /* InfoPlist.strings */; };
 		213940B7155D74F400CFB44A /* Group2ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 213940B6155D74F400CFB44A /* Group2ProjectTests.m */; };
+		213940DA155D75CA00CFB44A /* AQPlayer_SF.m in Sources */ = {isa = PBXBuildFile; fileRef = 213940C1155D75CA00CFB44A /* AQPlayer_SF.m */; };
+		213940DB155D75CA00CFB44A /* AQPlayer_Synth.m in Sources */ = {isa = PBXBuildFile; fileRef = 213940C3155D75CA00CFB44A /* AQPlayer_Synth.m */; };
+		213940DC155D75CA00CFB44A /* AQPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 213940C5155D75CA00CFB44A /* AQPlayer.m */; };
+		213940DD155D75CA00CFB44A /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 213940C7155D75CA00CFB44A /* MyView.m */; };
+		213940DE155D75CA00CFB44A /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 213940C9155D75CA00CFB44A /* Note.m */; };
+		213940DF155D75CA00CFB44A /* Sequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 213940CB155D75CA00CFB44A /* Sequence.m */; };
+		213940E0155D75CA00CFB44A /* Sequencer.m in Sources */ = {isa = PBXBuildFile; fileRef = 213940CD155D75CA00CFB44A /* Sequencer.m */; };
+		213940E1155D75CA00CFB44A /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 213940CF155D75CA00CFB44A /* Singleton.m */; };
+		213940E2155D75CA00CFB44A /* SoundFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 213940D1155D75CA00CFB44A /* SoundFile.m */; };
+		213940E3155D75CA00CFB44A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 213940D2155D75CA00CFB44A /* ViewController_iPad.xib */; };
+		213940E4155D75CA00CFB44A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 213940D3155D75CA00CFB44A /* ViewController_iPhone.xib */; };
+		213940E5155D75CA00CFB44A /* Voice_Sine.m in Sources */ = {isa = PBXBuildFile; fileRef = 213940D5155D75CA00CFB44A /* Voice_Sine.m */; };
+		213940E6155D75CA00CFB44A /* Voice_Synth.m in Sources */ = {isa = PBXBuildFile; fileRef = 213940D7155D75CA00CFB44A /* Voice_Synth.m */; };
+		213940E7155D75CA00CFB44A /* Voice.m in Sources */ = {isa = PBXBuildFile; fileRef = 213940D9155D75CA00CFB44A /* Voice.m */; };
+		213940E9155D761C00CFB44A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213940E8155D761C00CFB44A /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,14 +59,39 @@
 		21394098155D74F400CFB44A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2139409A155D74F400CFB44A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2139409B155D74F400CFB44A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2139409E155D74F400CFB44A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		213940A1155D74F400CFB44A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		213940A8155D74F400CFB44A /* Group2ProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Group2ProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		213940A9155D74F400CFB44A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		213940B1155D74F400CFB44A /* Group2ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Group2ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		213940B3155D74F400CFB44A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		213940B5155D74F400CFB44A /* Group2ProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Group2ProjectTests.h; sourceTree = "<group>"; };
 		213940B6155D74F400CFB44A /* Group2ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Group2ProjectTests.m; sourceTree = "<group>"; };
+		213940C0155D75CA00CFB44A /* AQPlayer_SF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQPlayer_SF.h; sourceTree = "<group>"; };
+		213940C1155D75CA00CFB44A /* AQPlayer_SF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQPlayer_SF.m; sourceTree = "<group>"; };
+		213940C2155D75CA00CFB44A /* AQPlayer_Synth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQPlayer_Synth.h; sourceTree = "<group>"; };
+		213940C3155D75CA00CFB44A /* AQPlayer_Synth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQPlayer_Synth.m; sourceTree = "<group>"; };
+		213940C4155D75CA00CFB44A /* AQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQPlayer.h; sourceTree = "<group>"; };
+		213940C5155D75CA00CFB44A /* AQPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQPlayer.m; sourceTree = "<group>"; };
+		213940C6155D75CA00CFB44A /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		213940C7155D75CA00CFB44A /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		213940C8155D75CA00CFB44A /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		213940C9155D75CA00CFB44A /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		213940CA155D75CA00CFB44A /* Sequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sequence.h; sourceTree = "<group>"; };
+		213940CB155D75CA00CFB44A /* Sequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sequence.m; sourceTree = "<group>"; };
+		213940CC155D75CA00CFB44A /* Sequencer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sequencer.h; sourceTree = "<group>"; };
+		213940CD155D75CA00CFB44A /* Sequencer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sequencer.m; sourceTree = "<group>"; };
+		213940CE155D75CA00CFB44A /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		213940CF155D75CA00CFB44A /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		213940D0155D75CA00CFB44A /* SoundFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundFile.h; sourceTree = "<group>"; };
+		213940D1155D75CA00CFB44A /* SoundFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundFile.m; sourceTree = "<group>"; };
+		213940D2155D75CA00CFB44A /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
+		213940D3155D75CA00CFB44A /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		213940D4155D75CA00CFB44A /* Voice_Sine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voice_Sine.h; sourceTree = "<group>"; };
+		213940D5155D75CA00CFB44A /* Voice_Sine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voice_Sine.m; sourceTree = "<group>"; };
+		213940D6155D75CA00CFB44A /* Voice_Synth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voice_Synth.h; sourceTree = "<group>"; };
+		213940D7155D75CA00CFB44A /* Voice_Synth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voice_Synth.m; sourceTree = "<group>"; };
+		213940D8155D75CA00CFB44A /* Voice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voice.h; sourceTree = "<group>"; };
+		213940D9155D75CA00CFB44A /* Voice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voice.m; sourceTree = "<group>"; };
+		213940E8155D761C00CFB44A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				213940E9155D761C00CFB44A /* AudioToolbox.framework in Frameworks */,
 				21394089155D74F400CFB44A /* UIKit.framework in Frameworks */,
 				2139408B155D74F400CFB44A /* Foundation.framework in Frameworks */,
 				2139408D155D74F400CFB44A /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +122,7 @@
 		21394079155D74F400CFB44A = {
 			isa = PBXGroup;
 			children = (
+				213940E8155D761C00CFB44A /* AudioToolbox.framework */,
 				2139408E155D74F400CFB44A /* Group2Project */,
 				213940AF155D74F400CFB44A /* Group2ProjectTests */,
 				21394087155D74F400CFB44A /* Frameworks */,
@@ -113,12 +153,36 @@
 		2139408E155D74F400CFB44A /* Group2Project */ = {
 			isa = PBXGroup;
 			children = (
+				213940C0155D75CA00CFB44A /* AQPlayer_SF.h */,
+				213940C1155D75CA00CFB44A /* AQPlayer_SF.m */,
+				213940C2155D75CA00CFB44A /* AQPlayer_Synth.h */,
+				213940C3155D75CA00CFB44A /* AQPlayer_Synth.m */,
+				213940C4155D75CA00CFB44A /* AQPlayer.h */,
+				213940C5155D75CA00CFB44A /* AQPlayer.m */,
+				213940C6155D75CA00CFB44A /* MyView.h */,
+				213940C7155D75CA00CFB44A /* MyView.m */,
+				213940C8155D75CA00CFB44A /* Note.h */,
+				213940C9155D75CA00CFB44A /* Note.m */,
+				213940CA155D75CA00CFB44A /* Sequence.h */,
+				213940CB155D75CA00CFB44A /* Sequence.m */,
+				213940CC155D75CA00CFB44A /* Sequencer.h */,
+				213940CD155D75CA00CFB44A /* Sequencer.m */,
+				213940CE155D75CA00CFB44A /* Singleton.h */,
+				213940CF155D75CA00CFB44A /* Singleton.m */,
+				213940D0155D75CA00CFB44A /* SoundFile.h */,
+				213940D1155D75CA00CFB44A /* SoundFile.m */,
+				213940D2155D75CA00CFB44A /* ViewController_iPad.xib */,
+				213940D3155D75CA00CFB44A /* ViewController_iPhone.xib */,
+				213940D4155D75CA00CFB44A /* Voice_Sine.h */,
+				213940D5155D75CA00CFB44A /* Voice_Sine.m */,
+				213940D6155D75CA00CFB44A /* Voice_Synth.h */,
+				213940D7155D75CA00CFB44A /* Voice_Synth.m */,
+				213940D8155D75CA00CFB44A /* Voice.h */,
+				213940D9155D75CA00CFB44A /* Voice.m */,
 				21394097155D74F400CFB44A /* AppDelegate.h */,
 				21394098155D74F400CFB44A /* AppDelegate.m */,
 				2139409A155D74F400CFB44A /* ViewController.h */,
 				2139409B155D74F400CFB44A /* ViewController.m */,
-				2139409D155D74F400CFB44A /* ViewController_iPhone.xib */,
-				213940A0155D74F400CFB44A /* ViewController_iPad.xib */,
 				2139408F155D74F400CFB44A /* Supporting Files */,
 			);
 			path = Group2Project;
@@ -225,8 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				21394093155D74F400CFB44A /* InfoPlist.strings in Resources */,
-				2139409F155D74F400CFB44A /* ViewController_iPhone.xib in Resources */,
-				213940A2155D74F400CFB44A /* ViewController_iPad.xib in Resources */,
+				213940E3155D75CA00CFB44A /* ViewController_iPad.xib in Resources */,
+				213940E4155D75CA00CFB44A /* ViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +328,18 @@
 				21394095155D74F400CFB44A /* main.m in Sources */,
 				21394099155D74F400CFB44A /* AppDelegate.m in Sources */,
 				2139409C155D74F400CFB44A /* ViewController.m in Sources */,
+				213940DA155D75CA00CFB44A /* AQPlayer_SF.m in Sources */,
+				213940DB155D75CA00CFB44A /* AQPlayer_Synth.m in Sources */,
+				213940DC155D75CA00CFB44A /* AQPlayer.m in Sources */,
+				213940DD155D75CA00CFB44A /* MyView.m in Sources */,
+				213940DE155D75CA00CFB44A /* Note.m in Sources */,
+				213940DF155D75CA00CFB44A /* Sequence.m in Sources */,
+				213940E0155D75CA00CFB44A /* Sequencer.m in Sources */,
+				213940E1155D75CA00CFB44A /* Singleton.m in Sources */,
+				213940E2155D75CA00CFB44A /* SoundFile.m in Sources */,
+				213940E5155D75CA00CFB44A /* Voice_Sine.m in Sources */,
+				213940E6155D75CA00CFB44A /* Voice_Synth.m in Sources */,
+				213940E7155D75CA00CFB44A /* Voice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,22 +370,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		2139409D155D74F400CFB44A /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2139409E155D74F400CFB44A /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		213940A0155D74F400CFB44A /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				213940A1155D74F400CFB44A /* en */,
-			);
-			name = ViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
 		213940B2155D74F400CFB44A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -325,7 +385,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -341,7 +404,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -351,7 +414,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -360,7 +426,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
